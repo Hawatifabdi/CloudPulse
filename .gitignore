@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+
+# Local database files
+*.duckdb
+*.duckdb.wal
+
+# Generated datasets and reports
+data/processed/*
+!data/processed/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Keep the original small source dataset out of Git unless its
+# redistribution terms have been checked.
+data/raw/*
+!data/raw/.gitkeep
+
+# Keep the AWS validation report in Git
+!reports/aws_validation.md
