@@ -77,7 +77,7 @@ Raw and generated datasets are excluded from version control. Check the original
 If you have published the project on GitHub:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Hawatifabdi/CloudPulse.git
 cd cloudpulse
 ```
 
